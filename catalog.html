@@ -7,14 +7,12 @@
   <body>
       <header class="page-header">
         <div class="container">
-          <div class="index-logo">
-            <a href="#"><img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»"></a>  
-          </div>
+          <a class="logo" href="#"><img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»"></a>  
           <nav class="main-navigation">
                 <a href="#">Информация</a>             
                 <a href="#">Новости</a>              
                 <a href="#">Прайс-лист</a>              
-                <a class="current-1">Магазин</a>              
+                <a class="current">Магазин</a>              
                 <a href="#">Контакты</a>                       
           </nav>          
           <div class="user-block">
@@ -28,43 +26,49 @@
         <div class="breadcrumbs">
               <a href="#">Главная</a>
               <a href="#">Магазин</a>
-              <a class="current-2">Средства для ухода</a>
+              <a class="current">Средства для ухода</a>
         </div>
         <div class="catalog">
            <div class="filters">
              <h2>Производители</h2>
              <form method="get">
-               <div class="brand">
+               <div class="choice">
                  <label for="baxter-of-california">Baxter of California</label>
                  <input type="checkbox" name="baxter-of-california" id="baxter-of-california" checked>
                </div>
-               <div class="brand">    
+               <div class="choice">    
                  <label for="mr-natty">Mr Natty</label>
                  <input type="checkbox" name="mr-natty" id="mr-natty">
                </div>  
-               <div class="brand">
+               <div class="choice">
                  <label for="suavecito">Suavecito</label>
                  <input type="checkbox" name="suavecito" id="suavecito" checked>
                </div>  
-               <div class="brand">
+               <div class="choice">
                  <label for="malin-goetz">Malin+Goetz</label>
                  <input type="checkbox" name="malin-goetz" id="malin-goetz">
                </div>  
-               <div class="brand">
+               <div class="choice">
                  <label for="murrays">Murrays</label>
                  <input type="checkbox" name="murrays" id="murrays">
                </div>  
-               <div class="brand">
+               <div class="choice">
                  <label for="american-crew">American Crew</label>
                  <input type="checkbox" name="american-crew" id="american-crew" checked>
                </div>
             <h2>Группы товаров</h2>
-                   <label for="shaving-acc">Бритвенные принадлежности</label>
-                   <input type="radio" name="product-type" value="shaving-acc" id="shaving-acc">
-                   <label for="look-after-remedy">Средства для ухода</label>
-                   <input type="radio" name="product-type" value="look-after-remedy" id="look-after-remedy" checked>
-                   <label for="accessories">Аксессуары</label>
-                   <input type="radio" name="product-type" value="accessories" id="accessories">
+                   <div class="option">
+                     <label for="shaving-acc">Бритвенные принадлежности</label>
+                     <input type="radio" name="product-type" value="shaving-acc" id="shaving-acc">
+                   </div>
+                   <div class="option">
+                     <label for="look-after-remedy">Средства для ухода</label>
+                     <input type="radio" name="product-type" value="look-after-remedy" id="look-after-remedy" checked>
+                   </div>
+                   <div class="option">
+                     <label for="accessories">Аксессуары</label>
+                     <input type="radio" name="product-type" value="accessories" id="accessories">
+                   </div>
                    <button class="btn" type="submit">Показать</button>
                </form>
          </div>
@@ -129,14 +133,14 @@
                </tr>
              </table>
            </article>
+           <div class="pages">
+             <a class="btn" href="#">1</a>
+             <a class="btn" class="current">2</a>
+             <a class="btn" href="#">3</a>
+             <a class="btn" href="#">4</a>    
+           </div>
          </div>
         </div>          
-        <div class="pages">
-            <a class="btn" href="#">1</a>
-            <a class="btn" class="current-3">2</a>
-            <a class="btn" href="#">3</a>
-            <a class="btn" href="#">4</a>    
-        </div>
       </main>
       <footer class="page-footer">
         <div class="container">
